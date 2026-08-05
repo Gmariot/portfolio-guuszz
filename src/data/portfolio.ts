@@ -5,7 +5,7 @@
  * O `videoUrl` deve ser o link original do YouTube (vídeo normal ou Shorts).
  */
 import thumb2d from "@/assets/thumb-2d.jpg";
-import thumb3d from "@/assets/thumb-3d.jpg";
+import thumb3d from "@/assets/edit1pessoal.png";
 import thumbFun from "@/assets/thumb-fun.jpg";
 import thumbApresentacao from "@/assets/thumb-apresentacao.jpg";
 import thumbCollab from "@/assets/thumb-collab.jpg";
@@ -26,10 +26,10 @@ export type Work = {
 export const works: Work[] = [
   {
     id: "edit-3d-01",
-    title: "Intro com Elementos 3D",
+    title: "Edit 3D Pessoal",
     description:
-      "Teste misturando cenas em 3D com composição 2D pra criar uma abertura mais chamativa.",
-    date: "2026",
+      "Edit curta com elementos 3D, utilizando a musica: Perdoa por tudo vida do Veigh.",
+    date: "12 de março, 2023",
     thumbnail: thumb3d,
     videoUrl: "https://youtube.com/shorts/klJJRlsRW8c",
   },
