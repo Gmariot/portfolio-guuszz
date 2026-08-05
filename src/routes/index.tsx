@@ -6,9 +6,9 @@ import { Works } from "@/components/site/Works";
 import { Collabs } from "@/components/site/Collabs";
 import { Contact } from "@/components/site/Contact";
 
-const title = "Gustavo — Editor de vídeo por hobby";
+const title = "Portfólio | guuszz.editor";
 const description =
-  "Portfólio pessoal do Gustavo: edits 2D, 3D, vídeos engraçados, apresentações e collabs feitos por hobby.";
+  "Portfólio pessoal do Gustavo, mais conhecido com guuszz.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
