@@ -13,13 +13,12 @@ export function Collabs() {
         style={{ background: "var(--gradient-primary)" }}
       />
       <div className="relative mx-auto max-w-6xl px-5">
-        <p className="text-sm uppercase tracking-[0.2em] text-accent">Projetos e Collabs</p>
+        <p className="text-sm uppercase tracking-[0.2em] text-accent">Collabs</p>
         <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-          Coisas que fiz <span className="text-gradient">junto com outras pessoas</span>
+          Vídeos editados que fiz <span className="text-gradient">junto com outras pessoas</span>
         </h2>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          Collabs são o que eu mais curto: cada um edita um pedaço e no fim vira um vídeo só.
-          Tudo feito por hobby, na vibe de aprender e se divertir.
+          Collabs que fiz com amigos editores, com objetivo de aprimorar habilidades de edição e dividir conhecimentos.
         </p>
 
         <div className="mt-10 space-y-5">
