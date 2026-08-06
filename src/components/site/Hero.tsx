@@ -22,7 +22,7 @@ export function Hero() {
       <div className="relative mx-auto w-full max-w-6xl px-5 pt-28">
         <span className="animate-rise inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-4 py-1.5 text-xs text-muted-foreground backdrop-blur">
           <Sparkles className="size-3.5 text-accent" />
-          Edição de vídeo por hobby
+          Edição de vídeo
         </span>
 
         <h1
@@ -36,7 +36,7 @@ export function Hero() {
           className="animate-rise mt-4 max-w-2xl text-xl text-foreground/90 sm:text-2xl"
           style={{ animationDelay: "160ms" }}
         >
-          Editor de vídeo por hobby, apaixonado por criatividade e edição.
+          Editor de vídeos
         </p>
 
         <p
