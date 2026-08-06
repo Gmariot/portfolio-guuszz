@@ -5,10 +5,12 @@
  * O `videoUrl` deve ser o link original do YouTube (vídeo normal ou Shorts).
  */
 import thumb2d from "@/assets/thumb-2d.jpg";
-import thumb3d from "@/assets/edit1pessoal.png";
-import thumbFun from "@/assets/thumb-fun.jpg";
+import edit1pessoal from "@/assets/edit1pessoal.png";
+import Aguarde from "@/assets/Aguarde.png";
 import thumbApresentacao from "@/assets/thumb-apresentacao.jpg";
-import thumbCollab from "@/assets/thumb-collab.jpg";
+import thumbCollab1 from "@/assets/colab1.png";
+import thumbCollab2 from "@/assets/colab2.png";
+import thumbCollab3 from "@/assets/colab3.png";
 
 export type Work = {
   id: string;
@@ -25,57 +27,57 @@ export type Work = {
  */
 export const works: Work[] = [
   {
-    id: "edit-3d-01",
-    title: "Edit 3D Pessoal",
+    id: "A preencher",
+    title: "A preencher",
     description:
       "Edit curta com elementos 3D, utilizando a musica: Perdoa por tudo vida do Veigh.",
     date: "12 de março, 2023",
-    thumbnail: thumb3d,
+    thumbnail: edit1pessoal,
     videoUrl: "https://youtube.com/shorts/klJJRlsRW8c",
   },
   {
-    id: "edit-2d-02",
-    title: "Experimento de Transições",
+    id: "A preencher",
+    title: "A preencher",
     description:
       "Estudo de transições suaves e masking, testando estilos diferentes no mesmo vídeo.",
     date: "2026",
-    thumbnail: thumb2d,
+    thumbnail: Aguarde,
     videoUrl: "#",
   },
   {
-    id: "fun-01",
-    title: "Edit Zoeira #1",
+    id: "A preencher",
+    title: "A preencher",
     description:
       "Aquele vídeo feito só pela diversão: memes, efeitos exagerados e muito corte rápido.",
     date: "2025",
-    thumbnail: thumbFun,
+    thumbnail: Aguarde,
     videoUrl: "#",
   },
   {
-    id: "apresentacao-01",
-    title: "Vídeo de Apresentação",
+    id: "A preencher",
+    title: "A preencher",
     description:
       "Edição mais limpa e organizada, pensada pra apresentar uma ideia de forma clara.",
     date: "2025",
-    thumbnail: thumbApresentacao,
+    thumbnail: Aguarde,
     videoUrl: "#",
   },
   {
-    id: "collab-01",
-    title: "Collab — Parte 03",
+    id: "A preencher",
+    title: "A preencher",
     description:
       "Minha parte em uma collab de edição feita junto com outras pessoas da comunidade.",
     date: "2025",
-    thumbnail: thumbCollab,
+    thumbnail: Aguarde,
     videoUrl: "#",
   },
   {
-    id: "edit-2d-01",
-    title: "Edit 2D — Ritmo e Tipografia",
+    id: "A preencher",
+    title: "A preencher",
     description:
       "Experimento de edição no ritmo da música, com tipografia animada e transições rápidas.",
     date: "2024",
-    thumbnail: thumb2d,
+    thumbnail: Aguarde,
     videoUrl: "#",
   },
 ];
@@ -91,35 +93,35 @@ export type Collab = {
 
 export const collabs: Collab[] = [
   {
-    id: "collab-comunidade",
-    name: "Collab da Comunidade",
-    participants: "Eu + 5 editores (adicione os @ aqui)",
-    myRole: "Fiz a parte 03: edição 2D no ritmo da música e transição de saída.",
-    thumbnail: thumbCollab,
-    videoUrl: "#",
+    id: "Collab 1 - Team Extreme",
+    name: "Collab 1 - Team Extreme",
+    participants: "Eu + 1 Amigo",
+    myRole: "Fiz a primeira parte da collab, introduzindo na edit, com elementos 3D, tipografia, etc, tudo no ritmo da musica.",
+    thumbnail: thumbCollab1,
+    videoUrl: "https://www.youtube.com/watch?v=vlry_WccJYM&list=RDvlry_WccJYM&start_radio=1",
   },
   {
-    id: "collab-amigos",
-    name: "Collab com Amigos",
-    participants: "Eu + 2 amigos (adicione os nomes aqui)",
-    myRole: "Cuidei da abertura e dos elementos 3D usados no meio do vídeo.",
-    thumbnail: thumb3d,
-    videoUrl: "#",
+    id: "Collab 2 - Team Extreme",
+    name: "Collab 2 - Team Extreme",
+    participants: "Eu + 1 Amigo",
+    myRole: "Fiz a primeira parte do Vídeo, com uma edição suave, introduzindo, com elementos 3D e transições cleans.",
+    thumbnail: thumbCollab2,
+    videoUrl: "https://www.youtube.com/watch?v=96SBOvbeS20",
   },
   {
-    id: "collab-tema",
-    name: "Collab Temática",
-    participants: "Grupo de editores online (placeholder)",
-    myRole: "Editei um trecho curto no estilo engraçado, com memes e efeitos.",
-    thumbnail: thumbFun,
-    videoUrl: "#",
+    id: "Collab 3 - Com amigo",
+    name: "Eu + 1 Amigo",
+    participants: "Eu + 1 Amigo",
+    myRole: "Fiz as segunda parte do Vídeo, com uma edição suave, 3D e transições cleans.",
+    thumbnail: thumbCollab3,
+    videoUrl: "https://www.youtube.com/watch?v=CeIAcAhAaHQ",
   },
 ];
 
 export const socials = [
-  { label: "Instagram", handle: "@seu_usuario", url: "#" },
-  { label: "YouTube", handle: "seu canal", url: "#" },
-  { label: "TikTok", handle: "@seu_usuario", url: "#" },
-  { label: "Discord", handle: "seu_usuario", url: "#" },
-  { label: "E-mail", handle: "seuemail@exemplo.com", url: "#" },
+  { label: "Instagram", handle: "@guuszz.editor", url: "https://www.instagram.com/guuszz.editor?igsh=MTdqZjFvMWlhNTR5Yg%3D%3D&utm_source=qr" },
+  { label: "YouTube", handle: "@guuszzz", url: "https://www.youtube.com/@guuszzz/videos" },
+  { label: "TikTok", handle: "@guuszz.editor", url: "https://www.tiktok.com/@guuszz.editor?_r=1&_t=ZS-98dzpF60CXd" },
+  { label: "Discord", handle: "guuszz."},
+  { label: "E-mail", handle: "guuszz.editor@gmail.com"},
 ];
