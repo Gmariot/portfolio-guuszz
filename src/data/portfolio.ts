@@ -72,7 +72,7 @@ export const works: Work[] = [
       "Uma edit pessoal com elementos 3D, com transições avançadas, e efeitos bem trabalhados, uma das minhas melhores edições",
     date: "Março, 2025",
     thumbnail: edit5,
-    videoUrl: "/videos/se enrosca no arame.mp4",
+    videoUrl: "/videos/se enrosca.mp4",
   },
   {
     id: "6",
