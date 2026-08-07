@@ -27,8 +27,8 @@ export type Work = {
  */
 export const works: Work[] = [
   {
-    id: "A preencher",
-    title: "A preencher",
+    id: "1",
+    title: "Edit 3D - Pessoal",
     description:
       "Edit curta com elementos 3D, utilizando a musica: Perdoa por tudo vida do Veigh.",
     date: "12 de março, 2023",
@@ -36,13 +36,13 @@ export const works: Work[] = [
     videoUrl: "https://youtube.com/shorts/klJJRlsRW8c",
   },
   {
-    id: "A preencher",
-    title: "A preencher",
+    id: "2",
+    title: "Trabalho da Faculdade",
     description:
-      "Estudo de transições suaves e masking, testando estilos diferentes no mesmo vídeo.",
-    date: "2026",
+      "Trabalho da faculdade onde necessitava apresentar um software, onde usei minhas técnicas de edição",
+    date: "2023",
     thumbnail: Aguarde,
-    videoUrl: "#",
+    videoUrl: "/videos/trabalho ediçao.mp4",
   },
   {
     id: "A preencher",
