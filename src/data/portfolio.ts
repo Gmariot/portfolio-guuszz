@@ -4,10 +4,13 @@
  * Preencha: id, title, description, date (opcional), thumbnail e videoUrl.
  * O `videoUrl` deve ser o link original do YouTube (vídeo normal ou Shorts).
  */
-import thumb2d from "@/assets/thumb-2d.jpg";
-import edit1pessoal from "@/assets/edit1pessoal.png";
+import edit1 from "@/assets/edit1.png";
+import edit2 from "@/assets/edit2.png";
+import edit3 from "@/assets/edit3.png";
+import edit4 from "@/assets/edit4.png";
+import edit5 from "@/assets/edit5.png";
+import edit6 from "@/assets/edit6.png";
 import Aguarde from "@/assets/Aguarde.png";
-import thumbApresentacao from "@/assets/thumb-apresentacao.jpg";
 import thumbCollab1 from "@/assets/colab1.png";
 import thumbCollab2 from "@/assets/colab2.png";
 import thumbCollab3 from "@/assets/colab3.png";
@@ -28,11 +31,11 @@ export type Work = {
 export const works: Work[] = [
   {
     id: "1",
-    title: "Edit 3D - Pessoal",
+    title: "1º - Edit 3D - Pessoal",
     description:
       "Edit curta com elementos 3D, utilizando a musica: Perdoa por tudo vida do Veigh.",
     date: "12 de março, 2023",
-    thumbnail: edit1pessoal,
+    thumbnail: edit1,
     videoUrl: "https://youtube.com/shorts/klJJRlsRW8c",
   },
   {
@@ -41,44 +44,44 @@ export const works: Work[] = [
     description:
       "Trabalho da faculdade onde necessitava apresentar um software, onde usei minhas técnicas de edição",
     date: "2023",
-    thumbnail: Aguarde,
+    thumbnail: edit2,
     videoUrl: "/videos/trabalho ediçao.mp4",
   },
   {
-    id: "A preencher",
-    title: "A preencher",
+    id: "3",
+    title: "Minha parte para uma Collab - Edit",
     description:
-      "Aquele vídeo feito só pela diversão: memes, efeitos exagerados e muito corte rápido.",
-    date: "2025",
-    thumbnail: Aguarde,
-    videoUrl: "#",
+      "Edição com transições cleans, no meu estilo, para uma collab",
+    date: "Dez, 2023",
+    thumbnail: edit3,
+    videoUrl: "/videos/guuszz part.mp4",
   },
   {
-    id: "A preencher",
-    title: "A preencher",
+    id: "4",
+    title: "Edit não finalizada",
     description:
-      "Edição mais limpa e organizada, pensada pra apresentar uma ideia de forma clara.",
-    date: "2025",
-    thumbnail: Aguarde,
-    videoUrl: "#",
+      "Uma edit que não foi para o ar, mas gostei dos efeitos que coloquei",
+    date: "Fev, 2025",
+    thumbnail: edit4,
+    videoUrl: "/videos/papapazi neee.mp4",
   },
   {
-    id: "A preencher",
-    title: "A preencher",
+    id: "5",
+    title: "2º - Edit 3D - Pessoal",
     description:
-      "Minha parte em uma collab de edição feita junto com outras pessoas da comunidade.",
-    date: "2025",
-    thumbnail: Aguarde,
-    videoUrl: "#",
+      "Uma edit pessoal com elementos 3D, com transições avançadas, e efeitos bem trabalhados, uma das minhas melhores edições",
+    date: "Março, 2025",
+    thumbnail: edit5,
+    videoUrl: "/videos/se enrosca no arame.mp4",
   },
   {
-    id: "A preencher",
-    title: "A preencher",
+    id: "6",
+    title: "3º - Edit 3D - Pessoal",
     description:
-      "Experimento de edição no ritmo da música, com tipografia animada e transições rápidas.",
-    date: "2024",
-    thumbnail: Aguarde,
-    videoUrl: "#",
+      "Outra edit pessoal minha, quando estava iniciando a mexer com elementos 3D",
+    date: "2022",
+    thumbnail: edit6,
+    videoUrl: "/videos/è o pose.mp4",
   },
 ];
 
